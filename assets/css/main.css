@@ -105,6 +105,52 @@
 	}
   }
 
+/* Login */
+  
+  /* Set a style for all buttons */
+  .loginbutton {
+	background-color: #36363d;
+	color: white;
+	padding: 0px;
+	margin: 12px 0;
+	border: none;
+	cursor: pointer;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  .loginbutton:hover {
+	background-color: #42424f;
+	opacity: 0.8;
+  }
+  
+  /* Center the avatar image inside this container */
+  .loginimgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.loginavatar {
+	width: 150px;
+	height: auto;
+	border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .logincontainer {
+	  display: grid;
+	  text-align: center;
+	  padding: 16px;
+	  align-items: center;
+	  justify-content: center;
+	  height: auto;
+	  width: 100%;
+	}
+  
+
 /* Basic */
 
 	@-ms-viewport {
