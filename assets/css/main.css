@@ -113,7 +113,7 @@
 	left: -50%; 
 	width: 200%; 
 	height: 200%;
-	z-index: -1;
+	z-index: -10;
   }
   #loginbg img {
 	position: absolute; 
@@ -124,7 +124,7 @@
 	margin: auto; 
 	min-width: 50%;
 	min-height: 50%;
-	z-index: -1;
+	z-index: -10;
   }
 
   /* Set a style for all buttons */
@@ -138,6 +138,7 @@
 	align-items: center;
 	text-align: center;
 	width: 100%;
+	z-index: auto;
   }
   
   /* Add a hover effect for buttons */
@@ -150,6 +151,7 @@
   .loginimgcontainer {
 	text-align: center;
 	margin: 24px 0 12px 0;
+	z-index: auto;
   }
   
   /* Avatar image */
@@ -157,6 +159,7 @@
 	width: 150px;
 	height: auto;
 	border-radius: 50%;
+	z-index: auto;
   }
   
   /* Add padding to containers */
@@ -168,6 +171,7 @@
 	  justify-content: center;
 	  height: auto;
 	  width: 100%;
+	  z-index: auto;
 	}
   
 
